@@ -297,13 +297,15 @@ html,body{
 }
 tr{
     text-align: center;
+    background-color: rgb(239, 255, 241);
 }
 th{
     background-color: seagreen;
     color: white;
 }
-td{
-    background-color: rgb(239, 255, 241);
+
+tr:hover{
+    background-color: rgb(188, 253, 195);
 }
 
 .active{
@@ -339,28 +341,24 @@ td{
 #map{
     background-image: url('../img/map.jpg');
     background-size: cover;
-    width: 70%;
+    width: 80%;
 }
 
 #sales{
-
     display: flex;
-    background-color: seagreen;
     color: white;
-    width: 20%;
-    height: 20%;
-    border-radius: 25px;
+    width: 80%;
+    height: 0%;
 }
 #salesTitle{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8vw;
-    padding-left: 5%;
+    font-size: 1vw;
 }
 #salesNumber{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8vw;
+    font-size: 1vw;
 }
