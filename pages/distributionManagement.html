@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="../css/whhg.css" />
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftBar">
+            <div id="cmpLogo">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <div id="userInfo">
+                <div id="userIMG"></div>
+                <div id="userTag" class="txt-white">Ernesto Solis</div>
+                <div id="userStatus" class="txt-white">
+                    <i class="icon-target"></i> &nbsp; Online
+                </div>
+            </div>
+            <div id="main">
+                <div id="mainTitle" class="txt-white">Main</div>
+                <div id="mainItemContainer">
+                    <div class="mainItem txt-white">
+                        <div class="mainI"><i class="icon-homealt"></i> &nbsp; Home</div> <div class="notification bg-green txt-white">3</div>
+                    </div>
+                    <div class="mainItem txt-gray">
+                        <div class="extraI"><i class="icon-map"></i> &nbsp; Routes</div> <div class="notification bg-green txt-white">2</div>
+                    </div>
+                    <div class="mainItem txt-gray">
+                        <div class="mainI"><i class="icon-appointment-agenda"></i> &nbsp; Delivery Points</div> <div class="notification bg-green txt-white">8</div>
+                    </div>
+                    <div class="mainItem txt-gray">
+                        <div class="mainI"><i class="icon-analytics-piechart"></i> &nbsp; Total Deliveries</div><div class="notification bg-green txt-white">8</div>
+                    </div>
+                </div>
+            </div>
+            <div class="listContainer" id="sales">
+                <div id="salesTitle">Total Sales: &nbsp;</div>
+                <div id="salesNumber">34,211</div>
+            </div>
+            <div id="watsonInfo">
+                <div id="watsonIMG"></div>
+                <div id="watsonStatus" class="txt-white">
+                    Call Watson
+                </div>
+            </div>
+        </div>
+        <div id="mainContainer">
+            <div id="topBar">
+                <ul>
+                    <li>
+                        <a id="dashText">Dashboard: Distribution Management</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <div class="listContainer">
+                    <table id="deliveryTime">
+                        <tr>
+                            <th>Destination</th>
+                            <th>Time</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>Aeropuerto</td>
+                            <td>00:50</td>
+                            <td ><div class="active">On time</div></td>
+                        </tr>
+                        <tr>
+                            <td>Andares</td>
+                            <td>00:20</td>
+                            <td ><div class="active">On time</div></td>
+                        </tr>
+                        <tr>
+                            <td>Plaza del Sol</td>
+                            <td>00:03</td>
+                            <td ><div class="active">On time</div></td>
+                        </tr>
+                        <tr>
+                            <td>Fabrica Centro</td>
+                            <td>01:20</td>
+                            <td ><div class="deactive">Delay</div></td>
+                        </tr>
+                        <tr>
+                            <td>Gran Plaza</td>
+                            <td>00:10</td>
+                            <td ><div class="active">On time</div></td>
+                        </tr>
+                        <tr>
+                            <td>Hospital Angeles</td>
+                            <td>00:33</td>
+                            <td ><div class="active">On time</div></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="listContainer">
+                    <table id="deliveryPoints">
+                        <tr>
+                            <th>Delivery Points</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>Aeropuerto GDL</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Aeropuerto GDL 2</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Plaza del Sol</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Fabrica Centro</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Gran Plaza</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>WalMart Lopez Mateos</td>
+                            <td ><div class="danger">Needs Supply</div></td>
+                        </tr>
+                        <tr>
+                            <td>WalMart Rio Nilo</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>WalMart Revolucion</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>WalMart Tonala</td>
+                            <td ><div class="danger">Needs Supply</div></td>
+                        </tr>
+                        <tr>
+                            <td>Liverpool Tlaquepaque</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Liverpool Zapopan</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                        <tr>
+                            <td>Plaza Patria Guadalajara</td>
+                            <td ><div class="active">Supplied</div></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="listContainer" id="map"></div>
+            </div>
+            <div id="footer">
+                &#9400;2018 Exploding Donuts
+            </div>
+        </div>
+    </div>
+</body>
+</html>
